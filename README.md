@@ -3,7 +3,7 @@
 A smart AI-powered trip planning web application built using React, Gemini AI, Firebase, and Tailwind CSS.
 The app helps users generate personalized travel itineraries, manage trips, and view travel history with a modern and responsive UI.
 
-🚀 Live Demo: https://aitrip.tubeguruji.com
+🚀 Live Demo: 
 
 ✨ Features
 
