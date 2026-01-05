@@ -1,16 +1,136 @@
-# React + Vite
+🌍 Full-Stack AI Trip Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart AI-powered trip planning web application built using React, Gemini AI, Firebase, and Tailwind CSS.
+The app helps users generate personalized travel itineraries, manage trips, and view travel history with a modern and responsive UI.
 
-Currently, two official plugins are available:
+🚀 Live Demo: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
 
-## React Compiler
+🤖 AI-Generated Trips using Gemini AI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🗺️ Personalized itineraries based on destination, budget & duration
 
-## Expanding the ESLint configuration
+🔐 Google Authentication (Firebase Auth)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💾 Save and manage trips in Firebase Firestore
+
+🖼️ Place images using Google Places Photo API
+
+📜 View Trip History for logged-in users
+
+🎨 Fully responsive UI with Tailwind CSS
+
+☁️ Deployed and production-ready
+
+🛠️ Tech Stack
+
+Frontend
+
+React
+
+React Router
+
+Tailwind CSS
+
+Backend / Services
+
+Gemini AI (Trip generation)
+
+Firebase Authentication
+
+Firebase Firestore
+
+APIs
+
+Google Places API
+
+Google Places Photo API
+
+📂 Project Structure
+src/
+├── components/       
+├── pages/             
+├── context/           
+├── services/          
+├── firebase/          
+├── utils/             
+└── App.jsx
+
+
+🚀 Installation & Setup
+
+Clone the repository
+
+git clone https://github.com/anantsethi11/ai-trip-planner.git
+
+
+Install dependencies
+
+npm install
+
+
+Run the app
+
+npm run dev
+
+
+Open in browser:
+
+http://localhost:5173
+
+🔐 Authentication
+
+Google Sign-In via Firebase
+
+User sessions are securely managed
+
+Trips are stored per authenticated user
+
+🧠 AI Trip Generation Flow
+
+User enters trip preferences
+
+Prompt is sent to Gemini AI
+
+AI returns a structured itinerary
+
+Trip data is saved to Firestore
+
+User can view trip anytime
+
+📦 Deployment
+
+Built using Vite
+
+Can be deployed on:
+
+Firebase Hosting
+
+Vercel
+
+Netlify
+
+📸 Screenshots
+
+(Add screenshots here for better presentation)
+
+🙌 Credits
+
+Tutorial & Concept by TubeGuruji
+
+Gemini AI by Google
+
+Firebase by Google
+
+⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+
+☕ Support on Buy Me a Coffee
+
+
+Add project README
+
